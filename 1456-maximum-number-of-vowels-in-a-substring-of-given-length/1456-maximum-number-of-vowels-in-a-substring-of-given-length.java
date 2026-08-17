@@ -20,7 +20,7 @@ class Solution {
      return maxVowels;
     }
 
-    public Boolean isVowel(char ch){
+    public boolean isVowel(char ch){
         if(ch =='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u'){
             return true;
         }
