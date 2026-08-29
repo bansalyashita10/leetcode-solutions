@@ -26,14 +26,8 @@ class Solution {
 
         // Try every possible letter
         for (char ch : letters.toCharArray()) {
-            generate(
-                digits,
-                index + 1,
-                current + ch,
-                result,
-                map
-            );
+            generate(digits,index + 1,current + ch,result, map);
         }
-        
+    
     }
 }
